@@ -1,0 +1,24 @@
+.services {
+    padding: 153px 0 150px;
+    color: #fff;
+    background-color: #121212;
+}
+
+.services__title {
+    margin-bottom: 39px;
+}
+
+.services__item:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.services__img {
+    width: 100%;
+    max-height: 270px;
+    margin-bottom: 15px;
+}
+
+.services__subtitle {
+    font-size: 30px;
+    line-height: 41px;
+}

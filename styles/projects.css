@@ -1,0 +1,51 @@
+.projects {
+    padding-bottom: 149px;
+}
+
+.projects__title {
+    margin-bottom: 34px;
+}
+
+.projects__list {
+    margin-bottom: 91px;
+}
+
+.projects__item:not(:last-child) {
+    margin-bottom: 90px;
+}
+
+.projects__img {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.projects__subtitle {
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+}
+
+.projects__link {
+    font-size: 20px;
+    line-height: 27px;
+    color: #ad1818;
+}
+
+.projects__btn {
+    width: 100%;
+    height: 153px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #ad1818;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ad1818;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.projects__btn:hover {
+    color: #fff;
+    background-color: #ad1818;
+}

@@ -1,0 +1,35 @@
+.footer {
+    padding: 60px 0 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #121212;
+}
+
+.footer__menu {
+    margin-bottom: 87px;
+}
+
+.footer__menu-item {
+    display: inline-block;
+}
+
+.footer__menu-item:not(:last-child) {
+    margin-right: 55px;
+}
+
+.footer__menu-link {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in;
+}
+
+.footer__menu-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__text {
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+}
